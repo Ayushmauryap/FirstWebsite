@@ -20,7 +20,7 @@
         * {
             padding: 0;
             margin: 0;
-            box-sizing: border-box;
+            box-sizing: border-box;}
 
             .main {
                 background: url(developer.png) no-repeat;
@@ -137,89 +137,22 @@
             .secondary {
                 display: flex;
                 justify-content: space-between;
-                margin: 0 100px;
-                height: 550px;
-            }
-
-            .card1 {
-                color: #03033a;
-                border: 2px solid #03033a;
-                border-radius: 10px;
-                width: 300px;
+                margin: 20px 100px;
                 height: 450px;
-                margin: 50px 50px;
             }
 
-            .card1 img {
-                border-radius: 9px 9px 5px 5px;
-                margin: 0 0 30px 0;
+            
 
-                height: 200px;
-                width: 297px;
-            }
-
-            .card2 {
-                border: 2px solid #03033a;
-                border-radius: 10px;
-                width: 300px;
-                height: 450px;
-                margin: 50px 50px;
-                color: #03033a;
-
-            }
-
-            .card2 img {
-                border-radius: 8px 8px 5px 5px;
-                margin: 0 0 30px 0;
-                height: 200px;
-                width: 297px;
-            }
-
-            .card3 {
-                color: #03033a;
-                border: 2px solid #03033a;
-                border-radius: 10px;
-                width: 300px;
-                height: 450px;
-                margin: 50px 50px;
-            }
-
-            .card3 img {
-                border-radius: 8px 8px 5px 5px;
-                margin: 0 0 30px 0;
-                height: 200px;
-                width: 297px;
-
-            }
-
-            .card1:hover {
+            .card:hover {
                 transform: scale(1.09);
                 transition: 0.5s ease-out;
                 background: #03033a;
                 color: white;
-                box-shadow: 5px 5px 5px 5px #03033a52;
+                box-shadow: 3px 3px 3px 3px #03033a52;
 
             }
 
-            .card2:hover {
-                transform: scale(1.09);
-                transition: 0.5s ease-out;
-                background: #03033a;
-                color: white;
-                box-shadow: 5px 5px 5px 5px #03033a52;
-
-
-            }
-
-            .card3:hover {
-                transform: scale(1.09);
-                transition: 0.5s ease-out;
-                background: #03033a;
-                color: white;
-                box-shadow: 5px 5px 5px 5px #03033a52;
-
-
-            }
+            
 
             #carouselExampleCaptions video {
                 height: 400px;
@@ -380,44 +313,19 @@
                 .secondary {
                     display: flex;
                     justify-content: space-evenly;
-                    height: 550px;
+                    height: 450px;
+                    margin-bottom: 30px;
+
                 }
 
-                .card1 {
+                .card {
                     margin: 0 15px 0 0;
                     width: 250px;
                     height: 450px;
                     font-size: 15px;
                 }
 
-                .card1 img {
-                    width: 247px;
-                    height: 190px;
-                }
-
-                .card2 {
-                    margin: 0 15px 0 0;
-                    width: 250px;
-                    height: 450px;
-                    font-size: 15px;
-                }
-
-                .card2 img {
-                    width: 247px;
-                    height: 190px;
-                }
-
-                .card3 {
-                    margin: 0 15px 0 0;
-                    width: 250px;
-                    height: 450px;
-                    font-size: 15px;
-                }
-
-                .card3 img {
-                    width: 247px;
-                    height: 190px;
-                }
+ 
                 .spinner-border{
                     width: 25px;
                     height: 25px;
@@ -591,7 +499,7 @@
                     color: #03033a;
                     border-color: #03033a;
                     transition: 0.5s ease-out;
-                    font-size: 25px;
+                    font-size: 20px;
 
                 }
 
@@ -604,47 +512,29 @@
                 .sign {
                     color: white;
                     background-color: #03033a;
-                    font-size: 25px;
+                    font-size: 20px;
+                    
                 }
 
                 .secondary {
-                    height: 350px;
+                    height: 250px;
                 }
 
-                .card1 {
+                .card {
                     width: 150px;
                     font-size: 8px;
                     height: 250px;
                 }
-
-                .card1 img {
-                    width: 147px;
-                    height: 100px;
+                .card-title{
+                    font-size: 10px;
                 }
-
-                .card2 {
-                    width: 150px;
-                    font-size: 8px;
-                    height: 250px;
+                .card-body a{
+                    font-size: 4px;
                 }
-
-                .card2 img {
-                    width: 147px;
-                    height: 100px;
-                }
-
-                .card3 {
-                    width: 150px;
-                    font-size: 8px;
-                    height: 250px;
-                }
-
-                .card3 img {
-                    width: 147px;
-                    height: 100px;
-                }
+               
+                
             }
-        }
+        
 
         svg {
             margin-left: 10px;
@@ -655,6 +545,109 @@
         .last p {
             font-family: "Playwrite DK Loopet";
         }
+        @media (max-width: 600px) {
+            .header .img {
+                    margin-top: 0px;
+                    margin-right: 100px;
+                }
+                .login {
+                    
+                    
+                    color: #ffffff;
+                    border-color: #ffffff;
+                    transition: 0.5s ease-out;
+                    font-size: 15px;
+
+                }
+                .sign {
+                    color: white;
+                    background-color: #03033a;
+                    font-size: 20px;
+                    
+                }
+                .line2 {
+                    
+                    
+                    font-size: 0px;
+                    
+                }
+
+                .p {
+                    
+                    font-size: 0px;
+
+                }
+                .line {
+                    color: white;
+                    font-size: 20px;
+                    margin: 0 0 0 100px;
+                }
+            
+        }
+        @media (max-width: 400px){
+            .header img{
+                height: 30px;
+                width: 30px;
+            }
+            .header .img{
+                margin-right: 80px;
+            }
+            .header ul li{
+                margin: 10px 0 0 10px;
+                font-size: 8px;
+            }
+            .line{
+                font-size: 15px;
+                margin-left:50px ;
+                margin-bottom: 20px;
+            }
+
+            #spinner{
+                display: none;
+            }
+            .login {
+                    
+                    
+                    color: #ffffff;
+                    border-color: #ffffff;
+                    transition: 0.5s ease-out;
+                    font-size: 10px;
+
+                }
+                .sign {
+                    color: white;
+                    background-color: #03033a;
+                    font-size: 10px;
+                    
+                }
+                
+                .main{
+                    height: 250px;
+                }
+                .main .header{
+                    padding-top: 10px;
+                }
+
+                .secondary {
+                    height: 200px;
+                }
+
+                .card {
+                    width: 200px;
+                    font-size: 5px;
+                    height: 200px;
+                }
+                .card-title{
+                    font-size: 8px;
+                }
+                .card-body a{
+                    font-size: 4px;
+                }
+               
+
+
+        }
+
     </style>
 </head>
 
@@ -675,33 +668,42 @@
             Clean code.<p class="p"> <b>Bold Ideas.Real Results</b> </p>
         </div>
         <div class="profile">
-            <a href="index3.html" class="sign">Sig In<div class="spinner-grow text-info" role="status">
+            <a href="index3.html" class="sign">Sig In <div id="spinner" class="spinner-grow text-info" role="status">
                     <span class="visually-hidden">Loading...</span>
                 </div></a>
-            <a href="index2.html" class="login">Login<div class="spinner-grow text-info" role="status">
-                    <span class="visually-hidden">Loading...</span> 
+            <a href="index2.html" class="login">Login <div id="spinner" class="spinner-grow text-info" role="status">
+                    <span class="visually-hidden">Loading...</span>
                 </div></a>
         </div>
     </div>
     <div class="secondary">
-        <a href="#" text-decoration: none;>
-
-            <div class="card1"><img src="ui.jpg" alt="">
-        </a>A UI developer designs and implements user interfaces for websites and applications, ensuring they are
+        
+    <div class="card" style="width: 18rem;">
+  <img src="ui.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">UI/UX Desigener</h5>
+    <p class="card-text">A UI developer designs and implements user interfaces for websites and applications, ensuring they are
         visually appealing, user-friendly, responsive, and functional across devices, using HTML, CSS, JavaScript, and
-        frameworks..
-    </div>
-    <a href="#">
+        frameworks..</p>
+    <a href="#" class="btn btn-primary">Know More</a>
+  </div>
+</div><div class="card" style="width: 18rem;">
+  <img src="frontend.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Frontend developer</h5>
+    <p class="card-text">A frontend developer builds the visual and interactive parts of websites or applications using HTML, CSS, and
+    JavaScript. They ensure usability, performance, and seamless user experience across browsers and devices.</p>
+    <a href="#" class="btn btn-primary">Know More</a>
+  </div>
+</div><div class="card" style="width: 18rem;">
+  <img src="Backend-Development.webp" class="card-img-top" alt="..." id="img3">
+  <div class="card-body">
+    <h5 class="card-title">Frontend developer</h5>
+    <p class="card-text">A frontend developer builds the visual and interactive parts of websites or applications using HTML, CSS, and
+    JavaScript. They ensure usability, performance, and seamless user experience across browsers and devices.</p>
+    <a href="#" class="btn btn-primary">Know More</a>
+  </div>
 
-        <div class="card2"><img src="frontend.jpeg" alt="">
-    </a>A frontend developer builds the visual and interactive parts of websites or applications using HTML, CSS, and
-    JavaScript. They ensure usability, performance, and seamless user experience across browsers and devices.</div>
-    <a href="#">
-
-        <div class="card3"><img src="Backend-Development.webp" alt="">
-    </a> A backend developer creates and maintains server-side logic, databases, and APIs for web applications. They
-    ensure data processing, security, and performance, enabling seamless communication between the frontend and the
-    server.
 
     </div>
 
@@ -717,20 +719,20 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <video src="video2.mp4" autoplay muted loop class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
+                <video src="video2.mp4" autoplay loop muted class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block" >
                         <h5>First slide label</h5>
 
                     </div>
             </div>
             <div class="carousel-item">
-                <video src="video3.mp4" autoplay muted loop class="d-block w-100" alt="...">
+                <video src="video3.mp4" autoplay loop muted class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
 
                     </div>
             </div>
             <div class="carousel-item">
-                <video src="video1.mp4" autoplay muted loop class="d-block w-100" alt="...">
+                <video src="video1.mp4" autoplay loop muted class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
 
                     </div>
